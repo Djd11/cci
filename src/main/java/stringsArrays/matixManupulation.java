@@ -22,17 +22,13 @@ public class matixManupulation {
         return m;
     }
 
-    static void tranpose(int[][] m){
-
+    static int[][] tranpose(int[][] m){
+        int[][] temp = new int[m[0].length][m.length];
         if(m.length == m[0].length){
 
-            for(int i= 0;i<m.length-1;i++){
-                for(int j =0;j<m[0].length;j++){
-
-                    int x = m[i][j];
-                    m[i][j] = m[j][i];
-                    m[j][i] = x;
-
+            for(int i= 0;i<=m.length-1;i++){
+                for(int j =0;j<=m[0].length-1;j++){
+                    temp[j][i]=m[i][j];
                 }
             }
 
@@ -40,16 +36,17 @@ public class matixManupulation {
             System.out.println("Matrix is not nxn");
         }
         System.out.println("Transpose :");
-        printMatrix(m);
+        printMatrix(temp);
+        return temp;
     }
 
     static int[][] rotateNinty(int[][]m){
 
 
-       tranpose(m);
-       swaprows(m);
+       int[][] transpose = tranpose(m);
+       int[][] swaprows = swaprows(transpose);
 
-       return m;
+       return swaprows;
     }
 
     static void printMatrix(int[][] m){
