@@ -3,11 +3,11 @@ package stringsArrays;
 public class UniqueCharecter {
 
 
-    static boolean isUniqueChar(String s){
+    static boolean isUniqueCharUsingBitVector(String s){
 
         int checker = 0;
         for (int i = 0;i<s.length();i++) {
-
+            System.out.println(checker);
             int val = s.charAt(i) - 'a';
             if ((checker & (1 << val)) > 0)
                 return false;
@@ -36,5 +36,6 @@ public class UniqueCharecter {
 
 //        isUniqueChar("apple");
         isunique("apple");
+        System.out.println(isUniqueCharUsingBitVector("a c"));
     }
 }
