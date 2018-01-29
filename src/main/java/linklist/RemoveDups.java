@@ -23,6 +23,7 @@ public class RemoveDups {
             System.out.println("Node :"+data);
         }
 
+
         String stringtoString(){
 
             return data;
@@ -89,6 +90,15 @@ public class RemoveDups {
                 System.out.println();
             }
         }
+        void printList(Node head){
+
+            Node s = head;
+            while(s!=null){
+                System.out.print(s.data+" ");
+                s = s.next;
+            }
+            System.out.println();
+        }
 
 
 
@@ -105,10 +115,11 @@ public class RemoveDups {
         node.insert("1");
         node.insert("2");
         System.out.println("Original list :");
-        node.display();
+        node.printList(node.firstnode);
         Node.removeDup(node.firstnode);
         System.out.println("After removing dups :");
-        node.display();
+        node.printList(node.firstnode);
+
 
 
 

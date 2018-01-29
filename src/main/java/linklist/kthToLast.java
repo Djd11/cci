@@ -63,6 +63,6 @@ public class kthToLast {
         // insert 5 element
         for(int i = 1;i<=5;i++)
             linkedList.insertNode(i);
-        LinkedListNode.kthIndex(linkedList.head,6);
+        LinkedListNode.kthIndex(linkedList.head,4);
     }
 }

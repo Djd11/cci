@@ -1,7 +1,17 @@
 package stringsArrays;
 
 public class Rotatation {
+/*
 
+If we imagine that 52 is a rotation of 51, then we can ask what the rotation point is.
+For example, if you rotate waterbottle after wat, you get erbottlewat. In a rotation,
+we cut 51 into two parts, x and y, and rearrange them to get 52.
+51 =xy =waterbottle x =wat y =erbottle
+52 =yx =erbottlewat
+So, we need to check if there's a way to split 51 into x and y such that xy = 51 and yx = 52.
+ Regardless of where the division between x and y is, we can see that yx will always bea
+ substring ofxyxy.That is, 52 will always be a substring of 5151.
+ */
     static boolean isRotation(String s1, String s2){
 
         if(s1.length()!=s2.length() || s2.length()<0) return false;
