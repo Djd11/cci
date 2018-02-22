@@ -19,6 +19,12 @@ So, we need to check if there's a way to split 51 into x and y such that xy = 51
         return isSubstring(s1s1,s2);
     }
 
+    /*
+        two pointers i & j
+        check each char of s1[i] and s2[j] if they are same only then move the j pointer,
+        after one complete pass if j has moved till end of s2 , means it is a substring.
+
+     */
     static boolean isSubstring(String s, String t){
 
         int sl = s.length(); int tl = t.length();

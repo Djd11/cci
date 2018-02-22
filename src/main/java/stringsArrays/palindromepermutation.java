@@ -5,6 +5,10 @@ public class palindromepermutation {
     /*
     check the occurance of each charecters, it should be even number and one max odd number
     steps : build charecter frequency, then check for max one odd
+
+    an int array of size char z to char a
+    go over the phrase array , get the char integer value, add it to int array,
+    if seen more than once check if it is odd, any odd count more than once means that is not palindrome.
      */
 
 

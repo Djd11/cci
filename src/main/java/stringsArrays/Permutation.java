@@ -28,6 +28,6 @@ public class Permutation {
 
     public static void main(String[] args) {
 
-        permutation("abc","abd");
+        System.out.println(permutation("abc","abd"));
     }
 }

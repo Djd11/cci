@@ -20,7 +20,7 @@ public class RemoveDups {
         }
 
         void display(){
-            System.out.println("Node :"+data);
+            System.out.println("BSTNode :"+data);
         }
 
 
@@ -83,7 +83,7 @@ public class RemoveDups {
             while (node1!=null){
                 node1.display();
                 if(node1.next!=null)
-                    System.out.print("Next Node  : "+node1.next.stringtoString());
+                    System.out.print("Next BSTNode  : "+node1.next.stringtoString());
                 else
                     System.out.println("Reached End");
                 node1 = node1.next;

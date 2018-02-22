@@ -12,6 +12,11 @@ public class FillBinaryMatrix {
         based on index of i,j it will higher value of i,j
         processMatrix(a[][])
         it will process each index of i,j and call findvalue to set true or false
+
+        {00 ,01, 02, 03},
+        {10, 11, 12, 13},
+        {20 ,21, 22, 23},
+        {30, 31, 32, 33}
      */
 
     static int M=4,N=4; // size of matrix
