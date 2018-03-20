@@ -36,6 +36,6 @@ public class UniqueCharecter {
 
 //        isUniqueChar("apple");
         isunique("apple");
-        System.out.println(isUniqueCharUsingBitVector("a c"));
+        System.out.println(isUniqueCharUsingBitVector("1 2 2"));
     }
 }

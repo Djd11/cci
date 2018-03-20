@@ -33,6 +33,6 @@ public class ExcelN2C {
     public static void main(String[] args) {
 
 //        String x = getExcelColumnName(1);
-        System.out.println( getExcelColumnName(78));
+        System.out.println( getExcelColumnName(52));
     }
 }
