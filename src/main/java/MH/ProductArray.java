@@ -11,7 +11,7 @@ public class ProductArray {
        two approaches
        order of n solution with extra space
        take two arrays left and right
-       assign 1 to first element in left , last element in right.
+       assign 1 to first element in left and last element in right.
        start constructing the left
 
             fill the left begining from 2nd postion onwards
