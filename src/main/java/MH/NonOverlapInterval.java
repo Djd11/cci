@@ -72,7 +72,7 @@ public class NonOverlapInterval {
             //check overlap
             if((Integer)previous.getLast() > (Integer) current.getFirst()){
 
-                // no overlap continue
+                //  overlap seen
 
                 previous = current;
                 count++;

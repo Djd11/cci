@@ -146,7 +146,7 @@ public class Graph {
         graph.printGraph(graph);
         graph.BFS(1);
 //        System.out.println();
-//        System.out.print("DFS search ");
+        System.out.print("DFS search ");
         graph.DFS(1);
 //        graph.DetectCycle(0);
     }

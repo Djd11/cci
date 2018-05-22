@@ -53,8 +53,8 @@ public class FrequencyCount {
 
     }
     public static void main(String[] args) throws IOException {
-//        wordfrequncy("mynameisname","name");
-         File x = new File("/Users/dhruba.jyoti/Downloads/sample.txt");
-         wordFreq(x);
+        wordfrequncy("mynameisname","name");
+//         File x = new File("/Users/dhruba.jyoti/Downloads/sample.txt");
+//         wordFreq(x);
     }
 }

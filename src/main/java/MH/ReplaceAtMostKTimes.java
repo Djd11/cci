@@ -24,6 +24,6 @@ public class ReplaceAtMostKTimes {
     public static void main(String[] args) {
         ReplaceAtMostKTimes x = new ReplaceAtMostKTimes();
         String s = "ABAB";
-        x.replaceAndFindMaxSubstring(s,2);
+        System.out.println(x.replaceAndFindMaxSubstring(s,2));
     }
 }
