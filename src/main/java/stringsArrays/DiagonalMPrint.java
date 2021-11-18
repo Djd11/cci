@@ -32,7 +32,7 @@ public class DiagonalMPrint {
             int j = 0;
             int i = k;
             while(i >=0){
-                System.out.print(A[i][j+" ");
+                System.out.print(A[i][j]+" ");
                 i = i - 1;
                 j = j + 1;
 

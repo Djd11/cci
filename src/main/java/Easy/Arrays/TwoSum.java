@@ -17,6 +17,13 @@ public class TwoSum {
             9
 
            m(k,v)
+           map(store diff,index)
+           parse and check if item is present
+           ex target is 9 = 4 + 5
+           index 2 and 3 has the ans ie  4+5  and 5+4
+
+           store Inputs 2,4,5,6 ---> (7,1) (5,2) (4,3) (3,4)
+
 
 
 
